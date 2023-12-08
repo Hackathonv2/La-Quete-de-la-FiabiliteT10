@@ -1,6 +1,6 @@
 # **La Quête de la Fiabilité**
 
-**Exercice 1 : Atténuation des défaillances**
+# Exercice 1 : Atténuation des défaillances
 
 Vous avez la charge d'un centre de données et en tant que tel, vous vous devez d'assurer une fiabilité et une sécurité exemplaire. Cependant, avec une infrastructure aussi complexe, vous devrez nécessairement faire face à certains problèmes. Bon courage !
 
@@ -49,7 +49,7 @@ Votre programme devra renvoyer :
 
 `pko`
 
-**Exercice 2 : Terminal de supervision**
+# Exercice 2 : Terminal de supervision
 
 Afin de pouvoir gérer au mieux l'entièreté de votre centre de données, vous avec besoin d'un point d'accès à partir duquel vous pouvez communiquer facilement et rapidement avec toutes vos machines.
 
@@ -96,7 +96,7 @@ Votre programme devra renvoyer :
 
 La machine hetre est reliée à la machine saule qui elle-même est reliée aux deux machines restantes chene et frene. C'est donc bien le terminal de supervision que l'on cherche.
 
-**Exercice 3 : Atténuation des défaillances II**
+# Exercice 3 : Atténuation des défaillances II
 
 Malheur, tous les serveurs et systèmes de stockage de votre centre de données sont tombés en panne en même temps !
 
@@ -150,7 +150,7 @@ Votre programme devra renvoyer :
 
 En l'état, les pannes simultanées adviennent tous les 6 jours. Si l'on augmente la première machine, ce temps passe à 3 jours et si l'on augmente la seconde, il passe à 4. Il est alors préférable de ne toucher aucune machine.
 
-**Exercice 4 : Transmissions sans fil**
+# Exercice 4 : Transmissions sans fil
 
 En vue de limiter la redondance du réseau et ainsi réduire la charge des liaisons entre serveurs et routeurs et améliorer la capacité totale du réseau, vous décidez de mettre en place une architecture auxiliaire de réseau sans fil.
 
@@ -198,7 +198,7 @@ Avec les positions données, un routeur placé en (1,1) avec une portée de 1 un
 
 Attention, la position du nouveau routeur sans fil ainsi que sa portée ne sont pas nécessairement des valeurs entières comme dans l'exemple. Enfin, il est autorisé de le placer sur une position où une autre machine se trouve déjà.
 
-**Exercice 5 : L'étrange système de stockage**
+# Exercice 5 : L'étrange système de stockage
 
 Au sein de votre centre de données, plusieurs serveurs peuvent avoir accès à un système de stockage commun. Pour y demander une certaine quantité de mémoire, le processus est assez particulier. Plutôt que de demander directement la quantité voulue, un serveur doit émettre une requête pour demander une certaine portion de la mémoire globale. Cette portion est déterminée par deux valeurs entre 0 et 1. Or, étant donné que plusieurs serveurs peuvent demander de la mémoire sur le système, il est fréquent qu'une partie du secteur demandé soit déjà allouée à un autre serveur. Pour éviter toute corruption, l'attribution de la mémoire suit les deux règles suivantes :
 
